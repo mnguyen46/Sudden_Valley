@@ -1,0 +1,15 @@
+1. Load the OFET structure
+
+2. For every device, store its molecular weight and mobility in an nx2 array.. [MW, mob?; more?]
+
+3. use isnan(x) to replace all the NaN values with the average of the actual existing defined MWs
+
+4. make a plot of mobility vs. MW
+
+5. do a least squared regression on it
+
+6. Update the structure so that all the NaN values now have the average MW, and save it.
+
+7. Make a procedure to add new papers
+
+8. Do a lasso regression on MW, PDI, RR, HR, boiling point

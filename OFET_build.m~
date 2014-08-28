@@ -31,9 +31,3 @@ for i = 3:19
     end
     OFET(i-2+n).CoatProc='Dropped';
 end
-
-save('OFET.mat','OFET')
-
-LOADED_STRUCT = load('OFET.mat');
-OFETcopy = LOADED_STRUCT.OFET;
-disp(OFETcopy)
